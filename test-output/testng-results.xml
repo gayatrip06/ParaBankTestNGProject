@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-12T11:59:49 IST" name="Suite" finished-at="2023-02-12T12:01:12 IST" duration-ms="82375">
+    <groups>
+      <group name="Sanity">
+        <method signature="RegistrationPageTestScripts.VerifyRegistrationPageFeature(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" name="VerifyRegistrationPageFeature" class="com.application.scripts.RegistrationPageTestScripts"/>
+        <method signature="RegistrationPageTestScripts.VerifyWhetherApplicationIsLaunchedSuccessfully()[pri:1, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" name="VerifyWhetherApplicationIsLaunchedSuccessfully" class="com.application.scripts.RegistrationPageTestScripts"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="RegistrationPageTestScripts.VerifyRegistrationPageFeature(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" name="VerifyRegistrationPageFeature" class="com.application.scripts.RegistrationPageTestScripts"/>
+        <method signature="RegistrationPageTestScripts.VerifyRegistrationPageHeader()[pri:2, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" name="VerifyRegistrationPageHeader" class="com.application.scripts.RegistrationPageTestScripts"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="RegistrationPageTestScripts.VerifyRegistrationPageFeature(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" name="VerifyRegistrationPageFeature" class="com.application.scripts.RegistrationPageTestScripts"/>
+        <method signature="RegistrationPageTestScripts.VerifyWhetherApplicationIsLaunchedSuccessfully()[pri:1, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" name="VerifyWhetherApplicationIsLaunchedSuccessfully" class="com.application.scripts.RegistrationPageTestScripts"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-02-12T11:59:49 IST" name="Test" finished-at="2023-02-12T12:01:12 IST" duration-ms="82375">
+      <class name="com.application.scripts.RegistrationPageTestScripts">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" started-at="2023-02-12T11:59:49 IST" name="setupReport" finished-at="2023-02-12T11:59:49 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" started-at="2023-02-12T11:59:50 IST" name="setupBrowser" finished-at="2023-02-12T11:59:52 IST" duration-ms="2616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="VerifyWhetherApplicationIsLaunchedSuccessfully()[pri:1, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" started-at="2023-02-12T11:59:52 IST" name="VerifyWhetherApplicationIsLaunchedSuccessfully" finished-at="2023-02-12T12:00:23 IST" duration-ms="31340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWhetherApplicationIsLaunchedSuccessfully -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" started-at="2023-02-12T12:00:24 IST" name="teardownBrowser" finished-at="2023-02-12T12:00:25 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" started-at="2023-02-12T12:00:25 IST" name="setupBrowser" finished-at="2023-02-12T12:00:26 IST" duration-ms="1296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="VerifyRegistrationPageHeader()[pri:2, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" started-at="2023-02-12T12:00:26 IST" name="VerifyRegistrationPageHeader" finished-at="2023-02-12T12:00:48 IST" duration-ms="22119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegistrationPageHeader -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" started-at="2023-02-12T12:00:48 IST" name="teardownBrowser" finished-at="2023-02-12T12:00:49 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" started-at="2023-02-12T12:00:51 IST" name="setupBrowser" finished-at="2023-02-12T12:00:52 IST" duration-ms="1316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="VerifyRegistrationPageFeature(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" started-at="2023-02-12T12:00:52 IST" name="VerifyRegistrationPageFeature" data-provider="testdata" finished-at="2023-02-12T12:01:01 IST" duration-ms="9143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gayatri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dhule]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dhule]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[424002]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[105]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Gayatri123]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Gayatri@123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Gayatri@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegistrationPageFeature -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" started-at="2023-02-12T12:01:01 IST" name="teardownBrowser" finished-at="2023-02-12T12:01:02 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" started-at="2023-02-12T12:01:02 IST" name="setupBrowser" finished-at="2023-02-12T12:01:03 IST" duration-ms="1329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="VerifyRegistrationPageFeature(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" started-at="2023-02-12T12:01:03 IST" name="VerifyRegistrationPageFeature" data-provider="testdata" finished-at="2023-02-12T12:01:12 IST" duration-ms="8754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[cdf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[450321]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9999999910]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegistrationPageFeature -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" started-at="2023-02-12T12:01:12 IST" name="teardownBrowser" finished-at="2023-02-12T12:01:12 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="stopReporting()[pri:0, instance:com.application.scripts.RegistrationPageTestScripts@4d154ccd]" started-at="2023-02-12T12:01:12 IST" name="stopReporting" finished-at="2023-02-12T12:01:12 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReporting -->
+      </class> <!-- com.application.scripts.RegistrationPageTestScripts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
